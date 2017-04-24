@@ -11,20 +11,20 @@
 
 可以通过 `tsc -v `命令查看当前`TypeScript版`本。
 
-###类型定义库
+### 类型定义库
 
 Github 上的开源项目 [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) 用于维护常见 JavaScript 库的类型定义。
 
 通过 [TypeSearch](https://microsoft.github.io/TypeSearch/) 搜索对应库的类型定义文件。
 
-###安装类型定义文件
+### 安装类型定义文件
 
 以 `angularjs` 为例，在工程根目录下执行如下命令以安装类型定义文件
 
     $ npm install @types/angular --save-dev
 对应的类型定义文件将被安装在 工程根目录/node_modules/@types 目录下。
 
-###配置 tsconfig.json
+### 配置 tsconfig.json
 
 工程根目录/src 下的 `tsconfig.json` 用于配置 TypeScript 编译选项。在使用 npm 进行类型定义文件管理时，它的配置如下
 
@@ -53,7 +53,7 @@ Github 上的开源项目 [DefinitelyTyped](https://github.com/DefinitelyTyped/D
 ```
 在未配置 typeroots 的前提下，TypeScript 编译器会自动寻找引入 `node_modules/@types` 目录中的类型定义文件。更多信息请参考 [tsconfig-json types typeroots and types](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#types-typeroots-and-types)
 
-###升级 TypeScript
+### 升级 TypeScript
 
 * $ npm uninstall -g typescript
 
@@ -66,7 +66,7 @@ Github 上的开源项目 [DefinitelyTyped](https://github.com/DefinitelyTyped/D
 
 * 匹配 TypeScript 2，Netbeans 插件也需升级。在 nbts 下载最新的 [.nbm](https://github.com/Everlaw/nbts/releases) 插件并导入 Netbeans 即可。
 
-###Reference
+### Reference
 
 * [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) 
 * [tsconfig-json types typeroots and types](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#types-typeroots-and-types) 
