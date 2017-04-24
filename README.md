@@ -1,8 +1,8 @@
-###前言
+### 前言
 
 `TypeScript` 相对于传统 `JavaScript`，在类型方面进行了增强，以实现诸如`类型检查`、`语法提示`等等功能。在 `ypeScript` 中使用传统 `JavaScript` 库，如` angularjs jQuery` 等，需要为其引入对应类型定义文件。关于类型定义文件的管理工具，经历了 `tsd、typings` 两代进化，现在官方推荐的方式是使用` npm` 进行管理。
 
-###安装TypeScript编译工具
+### 安装TypeScript编译工具
 安装好`Node.js后`，打开cmd窗口，输入以下命令
 
     $ npm install -g typescript
